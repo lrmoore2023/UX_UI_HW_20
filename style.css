@@ -11,7 +11,6 @@ li {
     list-style-type: none;
 }
 
-/* Customize the header/navigation section */
 .navbar {
     background-color: #000;
     padding: 10px 0;
@@ -23,7 +22,7 @@ li {
 }
 
 .navbar .nav-link {
-    color: #000; /* Updated color to black */
+    color: #000; 
     font-weight: 500;
     text-transform: uppercase;
     margin-right: 15px;
@@ -35,17 +34,15 @@ li {
     color: #ccc;
 }
 
-/* Add some padding for better readability */
 .jumbotron {
     padding: 50px;
     background-color: #f1f1f1;
     color: #333;
     text-align: center;
-    font-family: 'Bai Jamjuree', sans-serif; /* Updated font-family for headers */
-    font-weight: 700; /* Bold (700) */
+    font-family: 'Bai Jamjuree', sans-serif; 
+    font-weight: 700; 
 }
 
-/* Add some spacing between sections */
 .container {
     padding: 50px 0;
     background-color: #fff;
@@ -55,11 +52,10 @@ li {
 
 .container h3 {
     color: #000;
-    font-family: 'Bai Jamjuree', sans-serif; /* Updated font-family for headers */
-    font-weight: 700; /* Bold (700) */
+    font-family: 'Bai Jamjuree', sans-serif; 
+    font-weight: 700; 
 }
 
-/* Update text color based on background color */
 body, .jumbotron {
     background-color: #1d1d1d;
     color: #fff;
@@ -70,7 +66,6 @@ body, .jumbotron {
     color: #333;
 }
 
-/* Additional styles for specific elements */
 .container ul {
     list-style: disc;
     padding-left: 20px;
@@ -78,11 +73,10 @@ body, .jumbotron {
 
 .container p {
     margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif; /* Updated font-family for paragraphs */
-    font-weight: 400; /* Normal (400) */
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400; 
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
     .jumbotron {
         padding: 30px;
